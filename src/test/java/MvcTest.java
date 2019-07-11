@@ -1,7 +1,5 @@
-package com.atguigu.crud.test;
-
-import java.util.List;
-
+import com.atguigu.crud.bean.Employee;
+import com.github.pagehelper.PageInfo;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -16,8 +14,7 @@ import org.springframework.test.web.servlet.request.MockMvcRequestBuilders;
 import org.springframework.test.web.servlet.setup.MockMvcBuilders;
 import org.springframework.web.context.WebApplicationContext;
 
-import com.atguigu.crud.bean.Employee;
-import com.github.pagehelper.PageInfo;
+import java.util.List;
 
 /**
  * 使用Spring测试模块提供的测试请求功能，测试crud请求的正确性
